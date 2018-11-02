@@ -1,10 +1,11 @@
+require 'singleton'
 
 class Blockchain
-  
+  include Singleton
 end
 
 class BlockchainNode
-  num_processes = 3
+  #num_processes = 3
 
   def initialize(pid)
     @pid = pid
