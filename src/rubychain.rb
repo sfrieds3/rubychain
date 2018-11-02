@@ -17,7 +17,6 @@ class BlockchainNode
 end
 
 class FileOpener
-
   def open_file(filename)
     file = File.open(filename, "r")
     data = file.read
